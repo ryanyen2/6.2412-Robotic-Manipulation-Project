@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package>
+  <name>overhang</name>
+  <version>1.0.0</version>
+  <description>
+    This package provides the models used in Ryan's 6.421 final project
+  </description>
+  <maintainer email="ryanyen2@mit.edu">Ryan Yen</maintainer>
+  <license>BSD</license>
+</package>

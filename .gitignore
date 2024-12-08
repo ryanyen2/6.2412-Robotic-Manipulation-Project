@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_metadata
+jupyter_execute/
+
+# VSCode
+.vscode/
+*.code-workspace
+.history/
+.settings/
+
+# Cursor
+.cursor/
+.cursor-cache/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Drake specific
+bazel-*
+drake-build/
+drake-distro/
+
+# Project specific
+estimation_results.csv
+*.mp4
+*.gif
+*.png
+!assets/*.png  # Keep assets images

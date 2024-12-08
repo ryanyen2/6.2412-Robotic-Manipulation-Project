@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <model name="bin_model">
+    <link name="bin_base">
+      <inertial>
+        <mass>18.70</mass>
+        <inertia>
+          <ixx>0.79</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.53</iyy>
+          <iyz>0</iyz>
+          <izz>1.2</izz>
+        </inertia>
+      </inertial>
+      <visual name="bottom">
+        <geometry>
+          <box>
+            <size>10 10 0.015</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name="bottom">
+        <geometry>
+          <box>
+            <size>10 10 0.015</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
