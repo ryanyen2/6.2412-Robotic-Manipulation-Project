@@ -72,5 +72,5 @@ drake-distro/
 estimation_results.csv
 *.mp4
 *.gif
-*.png
-!assets/*.png  # Keep assets images
+# *.png
+# !assets/*.png  # Keep assets images
